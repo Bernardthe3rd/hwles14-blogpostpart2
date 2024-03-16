@@ -59,3 +59,112 @@ button {
   padding: 10px 20px;
   background-color: blueviolet;
 }
+
+/*Starting styling Navigation*/
+.active-nav-link {
+  color: var(--color-primary);
+  border-bottom: 1px solid var(--color-primary);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.default-nav-link {
+  color: var(--color-white);
+  border-bottom: 1px solid transparent;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*logo nav*/
+.wrapper-img {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.wrapper-img > img {
+  width: 100%;
+}
+
+/*navigation layout*/
+.nav-outer-container {
+  margin: 0 auto;
+  padding: 20px 20px;
+  max-width: 1200px;
+  background-color: var(--color-secondary);
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.nav-inner-container {
+  padding: 0 20px;
+  list-style-type: none;
+  width: 400px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/*Ending styling Navigation*/
+
+.link-title {
+  color: var(--color-primary);
+}
+
+.inner-container {
+  /*border: 1px solid orange;*/
+  list-style-type: none;
+  background-color: var(--color-white);
+  box-shadow: rgba(0, 0, 0, 0.35) 0 5px 15px;
+  color: var(--color-secondary);
+  padding: 0 20px;
+  margin: 20px auto;
+  max-width: 500px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0 10px
+}
+
+/*Css for the form*/
+.form-container {
+  padding: 0 20px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.form-container > button {
+  margin: 0 auto;
+  padding: 10px 20px;
+  width: 1000px;
+  background-color: var(--color-primary);
+}
+
+.form-container > label {
+  margin: 0 auto;
+  width: 1000px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-container > label > input {
+  padding: 10px 10px;
+}
+
+.form-container > label > textarea {
+  padding: 10px 10px;
+}
+/*ending Css for form*/
