@@ -30,7 +30,8 @@ const DetailBlogpost = () => {
     return (
         <>
             {/*<p>{id}</p>*/}
-            {error === true
+            {/*=== true achter error mocht weg, omdat dit vanzelfsprekend een boolean waarde genereerd.*/}
+            {error
                 ?
                 <div>
                     <p>Er is iets misgegaan met het ophalen van de data, kom later terug</p>

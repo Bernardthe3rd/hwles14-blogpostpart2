@@ -15,7 +15,7 @@ const NewPost = () => {
         fullname:"",
         post:""
     })
-
+//onderstaande kan dus ook korter: zie opdracht fruit order form
     function handleFormChange (f) {
         const changedTitle = f.target.name
         const changedSubtitle = f.target.name
