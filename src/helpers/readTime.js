@@ -1,0 +1,1 @@
+export const readTime = (time) => (time.length * 0.3) /100
